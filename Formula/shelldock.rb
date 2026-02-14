@@ -1,17 +1,17 @@
 class Shelldock < Formula
   desc "A fast, cross-platform shell command repository manager"
   homepage "https://github.com/OpsGuild/ShellDock"
-  url "https://github.com/OpsGuild/ShellDock/archive/v1.3.tar.gz"
-  version "1.3"
-  sha256 "3d6c72fbd602df87bbc2fe80c55c9ee05657a98d52277cb2197d381e047b8f68"
+  url "https://github.com/OpsGuild/ShellDock/archive/v1.4.tar.gz"
+  version "1.4"
+  sha256 "33eba2c5a2148688202663bf40726cec37c72c0fbfb1ede45f741c15e38ef99f"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/OpsGuild/ShellDock/releases/download/v1.3/shelldock-darwin-amd64"
-      sha256 "3d6c72fbd602df87bbc2fe80c55c9ee05657a98d52277cb2197d381e047b8f68"
+      url "https://github.com/OpsGuild/ShellDock/releases/download/v1.4/shelldock-darwin-amd64"
+      sha256 "33eba2c5a2148688202663bf40726cec37c72c0fbfb1ede45f741c15e38ef99f"
     else
-      url "https://github.com/OpsGuild/ShellDock/releases/download/v1.3/shelldock-darwin-arm64"
-      sha256 "355595e7acea34999bf1e4dbc348bff039bd7b2cf9ef906f7b7c8a2a8d2a78c5"
+      url "https://github.com/OpsGuild/ShellDock/releases/download/v1.4/shelldock-darwin-arm64"
+      sha256 "7d4ca1a39f7fba4abf54fcc8ff7312a7b4d2f204a1e740ec50ce81cb9abfa8c7"
     end
   end
 
